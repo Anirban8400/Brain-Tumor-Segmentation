@@ -29,7 +29,7 @@ The model utilizes a custom implementation of **U-Net**, a convolutional neural 
 
 * **Type:** Encoder-Decoder with skip connections.
 * **Optimization:** The model is trained using **Dice Loss** to handle class imbalance (tumor vs. background) and optimized for the **Dice Coefficient**.
-* **Training:** Achieved **77% Validation Accuracy** in just 20 epochs.
+* **Training:** Achieved **85% Validation Accuracy** in just 20 epochs.
 
 [Image of U-Net architecture for biomedical image segmentation]
 
